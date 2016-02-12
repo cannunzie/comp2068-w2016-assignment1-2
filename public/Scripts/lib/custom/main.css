@@ -1,9 +1,7 @@
 body{
     padding-top: 70px;
-}
-#homepage-class{
     background-image: url('../../../images/workstation.jpg');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
 }
