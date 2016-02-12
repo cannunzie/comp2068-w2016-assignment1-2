@@ -1,0 +1,22 @@
+{
+  "name": "comp2068-w2016-assignment1",
+  "description": "assignment 1",
+  "main": "",
+  "authors": [
+    "Caleb Annunziello <cannunziello@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cannunzie/comp2068-w2016-assignment1-2",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "font-awesome": "^4.5.0"
+  }
+}
