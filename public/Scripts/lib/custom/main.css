@@ -1,7 +1,7 @@
 body{
     padding-top: 70px;
 }
-.page-header{
+#homepage-class{
     background-image: url('../../../images/workstation.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
