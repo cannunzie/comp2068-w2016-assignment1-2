@@ -18,7 +18,12 @@ router.get('/contact', function(req, res, next) {
 
 /* GET expertise page. */
 router.get('/expertise', function(req, res, next) {
-  res.render('index', { title: 'Expertise' });
+  res.render('expertise', { title: 'Expertise' });
+});
+
+/* GET projects page. */
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects' });
 });
 
 module.exports = router;
