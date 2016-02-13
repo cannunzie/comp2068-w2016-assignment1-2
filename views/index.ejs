@@ -1,11 +1,37 @@
 <% include partials/header.ejs %>
 
-<body>
-    <main id="homepage-class" class="container">
-        <div class="page-header jumbotron">
-            <h1><%= title %></h1>
-            <p>Apprentice Web Developer</p>
-        </div>
-    </main>
-    
-<% include partials/footer.ejs %>
+    <body>
+        <main class="container">
+            <div class="jumbotron">
+                <div class="page-header">
+                    <h1><%= title %></h1>
+                    <p>Application Developer</p>
+                </div>
+                <p>You've found your way to my profile page. Use the links below or in the navigation bar to continue exploring.
+                </p>
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="/about" class="thumbnail">
+                            <img src="../../../public/images/about-me.jpeg">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="..." alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="..." alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="..." alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <% include partials/footer.ejs %>

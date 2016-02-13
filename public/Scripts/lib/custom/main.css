@@ -5,10 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.jumbotron{
-    font-size: .6em;
-}
 
-h1{
-    color: mediumblue;
+.page-header{
+    text-align: center;
 }
