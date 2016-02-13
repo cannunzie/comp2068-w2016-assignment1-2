@@ -8,12 +8,17 @@ router.get('/', function(req, res, next) {
 
 /* GET about page. */
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
+  res.render('about', { title: 'About Me' });
 });
 
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact Me' });
+});
+
+/* GET expertise page. */
+router.get('/expertise', function(req, res, next) {
+  res.render('index', { title: 'Expertise' });
 });
 
 module.exports = router;
